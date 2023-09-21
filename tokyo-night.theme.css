@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tokyo Night - BetterDiscord</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta charset="utf-8" />
+<meta property="og:title" content="Tokyo Night - BetterDiscord" />
+<meta property="og:description" content="Discord Port of Visual Studio Code Theme" />
+<meta property="og:url" content="https://betterdiscord.app/theme/Tokyo%20Night">
+<meta property="og:image" content="/Image/690" />
+<meta property="og:image:alt" content="theme Thumbnail" />
+<meta property="og:image:width" content="1920" />
+<meta property="og:image:width" content="1080" />
+<meta name="description" content="Discord Port of Visual Studio Code Theme" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Tokyo Night - BetterDiscord" />
+<meta property="twitter:description" content="Discord Port of Visual Studio Code Theme" />
+<meta property="twitter:url" content="https://betterdiscord.app/theme/Tokyo%20Night" />
+<meta property="twitter:image" content="/Image/690" />
+<meta property="twitter:image:alt" content="theme Thumbnail" />
+<meta property="og:site_name" content="BetterDiscord">
+<meta property="twitter:site" content="BetterDiscord">
+<meta name="theme-color" content="#3a71c1">
+<meta name="keywords" content="Discord, BetterDiscord, Better Discord, Discord Mod, Discord Themes, Discord Plugins, Discord Extensions, Discord Client Mod, Discord Hacks">
+<meta name="author" content="BetterDiscord">
+<meta name="msapplication-TileColor" content="#3a71c1">
+<meta name="msapplication-TileImage" content="/resources/favicon/ms-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/resources/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/resources/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/resources/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/resources/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/resources/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/resources/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/resources/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/resources/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/resources/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/resources/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon/favicon-16x16.png">
+<link rel="manifest" href="/resources/favicon/manifest.json">
+<link rel="stylesheet" href="/css/normalize.css?v=FCbDC8zhJbOy_O5J4VcMX8fyFPqElXhlZ4RnreLLVhY" />
+<link rel="stylesheet" href="/css/site.css?v=saPql2lA2GVF25Txh0fIViEksvoXgL-u8n_xgB2mzyw" />
+<link rel="preload" as="font" type="font/woff2" href="/resources/fonts/Inter-Medium.woff2" crossorigin />
+<link rel="preload" as="font" type="font/woff2" href="/resources/fonts/Inter-SemiBold.woff2" crossorigin />
+<link rel="preload" as="font" type="font/woff2" href="/resources/fonts/Inter-Bold.woff2" crossorigin />
+<link rel="preload" as="font" type="font/woff" href="/resources/fonts/Inter-Medium.woff" crossorigin />
+<link rel="preload" as="font" type="font/woff" href="/resources/fonts/Inter-SemiBold.woff" crossorigin />
+<link rel="preload" as="font" type="font/woff" href="/resources/fonts/Inter-Bold.woff" crossorigin />
+
+<script async data-ad-client="ca-pub-7911812397945020" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8L2S5QRZV"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-T8L2S5QRZV');
+    </script>
+
+
+<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="60f6fbf4bd5b6c54cf47a3c9" data-mode="scan" async></script>
+
+
+
+<script defer src="/js/vendor/tagify.min.js?v=O0tc3ecrkQDXM3S7L_mrYKOZND5TS1HbHLdik4dPDbk"></script>
+<script defer src="/js/vendor/OverlayScrollbars.min.js?v=n0i7FcM-m27Gjv187z9LgDy8SJjLF7kvBA_uzUsOIig"></script>
+<script defer src="/js/vendor/highlight.min.js?v=9BPhnQcUhR9kdOfuljJAjlisFG-9vmJ0cTS-ovo0FeA"></script>
+<script>
+        document.addEventListener("DOMContentLoaded", function () {
+            hljs.initHighlightingOnLoad();
+        });
+    </script>
+<script>    window.Endpoints = {
+      store: {
+        addons: "https://api.betterdiscord.app/latest/store/addons",
+        themes: "https://api.betterdiscord.app/latest/store/themes",
+        plugins: "https://api.betterdiscord.app/latest/store/plugins",
+      },
+      moderation: {
+        verifyUser: "https://betterdiscord.app/latest/moderation/verify-user", // payload: userId
+      },
+      utils: {
+        deadAvatar: "https://api.betterdiscord.app/latest/utils/dead-avatar", // payload: oldAvatarUrl
+      }
+    };
+
+    function wrappedFetch(url, options) {
+      options.referrerPolicy = "strict-origin-when-cross-origin";
+      options.headers = Object.assign(Object(options.headers), {
+        "Content-Type": "application/json;charset=UTF-8"
+      });
+
+      // custom options field
+      if (options.payload) {
+        options.body = JSON.stringify(options.payload);
+      }
+      delete options.payload;
+
+      let abortController = new AbortController();
+      options.signal = abortController.signal;
+      let promise = (async () => {
+        try {
+          let response = await fetch(url, options);
+          let { status, statusText } = response;
+          if (200 <= status || status <= 299 || status === 301 || status === 302) {
+            return response;
+          }
+          throw new Error("back-end response: " + status + " " + statusText);
+        } catch (err) {
+          throw err;
+        }
+      })();
+      promise.abort = () => abortController.abort();
+      return promise;
+}
+
+    function wrapFetch(apiNamespace, endpointName, method, auth) {
+      const url = apiNamespace[endpointName];
+      Object.assign(apiNamespace, {
+        [endpointName](payload) {
+          return wrappedFetch(url, {
+            payload,
+            method,
+            credentials: auth && "include" || void 0
+          });
+        },
+      });
+    }
+
+    wrapFetch(Endpoints.store, "addons", "GET");
+    wrapFetch(Endpoints.store, "themes", "GET");
+    wrapFetch(Endpoints.store, "plugins", "GET");
+    wrapFetch(Endpoints.moderation, "verifyUser", "POST", true);
+    wrapFetch(Endpoints.utils, "deadAvatar", "PATCH");
+    </script>
+<script defer src="/js/site.js?v=scBxKIjsyF_GdGovfjAgeFsD3r0d7t9mKmSClZSU9A4"></script>
+
+<script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(["setCookieDomain", "*.betterdiscord.app"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "https://betterdiscord.app:8443/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+
+</head>
+<body class style="height: auto;">
+
+<div class="vm-placement" data-id="60f82387ffc37172cbbc0201" style="display:none"></div>
+<div class="vm-placement" id="vm-av" data-format="isvideo"></div>
+
+<script src="/js/navbar.js?v=nATU-rxwW91S2c-Z7aPDTs9FBxMWgfYzstfal1Ti9gc" defer></script>
+<script>
+
+    async function avatarExpired(img) {
+        img.onerror = null;
+
+        img.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNiAxNicgZmlsbD0nI2JmYzRjOScgd2lkdGg9JzE2JyBoZWlnaHQ9JzE2Jz48cGF0aCBmaWxsLXJ1bGU9J2V2ZW5vZGQnIGQ9J00xMC41IDVhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6bS4wNjEgMy4wNzNhNCA0IDAgMTAtNS4xMjMgMCA2LjAwNCA2LjAwNCAwIDAwLTMuNDMxIDUuMTQyLjc1Ljc1IDAgMDAxLjQ5OC4wNyA0LjUgNC41IDAgMDE4Ljk5IDAgLjc1Ljc1IDAgMTAxLjQ5OC0uMDcgNi4wMDUgNi4wMDUgMCAwMC0zLjQzMi01LjE0MnonIHN0eWxlPScgdHJhbnNmb3JtOiBzY2FsZSguNSk7IHRyYW5zZm9ybS1vcmlnaW46IGNlbnRlcjsgJy8+PC9zdmc+';
+
+        try {
+            img.src = await Endpoints.utils.deadAvatar(img.src);
+        } catch (err) {
+        }
+    }
+</script>
+<header id="navbar" class="page-section flex-container align-center">
+<div class="page-section-inner">
+<a class="navbar-logo-container" href="/">
+<img loading="lazy" class="navbar-logo hide-mobile" src="/resources/branding/logo_large.svg" alt="BetterDiscord logo" />
+<img loading="lazy" class="navbar-logo small" src="/resources/branding/logo_small.svg" alt="BetterDiscord logo" />
+</a>
+<nav id="navbar-nav-items" class="flex-container align-center" data-toggle="affix">
+<a class="nav-item" href="/themes">Themes</a>
+<a class="nav-item" href="/plugins">Plugins</a>
+<a class="nav-item" href="/developers">Devs</a>
+<a class="nav-item" href="/merch">Merch</a>
+<a class="nav-item" target="_blank" href="https://docs.betterdiscord.app/">Docs</a>
+<form action="/auth/discord" method="post">
+<input type="hidden" name="ReturnUrl" value="/theme/Tokyo%20Night" />
+<button href="#" type="submit" class="btn btn-secondary">
+<svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="16" height="16">
+<path fill-rule="evenodd" d="M20.222 0c1.406 0 2.54 1.137 2.607 2.475V24l-2.677-2.273l-1.47-1.338l-1.604-1.398l.67 2.205H3.71c-1.402 0-2.54-1.065-2.54-2.476V2.48C1.17 1.142 2.31.003 3.715.003h16.5L20.222 0zm-6.118 5.683h-.03l-.202.2c2.073.6 3.076 1.537 3.076 1.537c-1.336-.668-2.54-1.002-3.744-1.137c-.87-.135-1.74-.064-2.475 0h-.2c-.47 0-1.47.2-2.81.735c-.467.203-.735.336-.735.336s1.002-1.002 3.21-1.537l-.135-.135s-1.672-.064-3.477 1.27c0 0-1.805 3.144-1.805 7.02c0 0 1 1.74 3.743 1.806c0 0 .4-.533.805-1.002c-1.54-.468-2.14-1.404-2.14-1.404s.134.066.335.2h.06c.03 0 .044.015.06.03v.006c.016.016.03.03.06.03c.33.136.66.27.93.4a8.18 8.18 0 0 0 1.8.536c.93.135 1.996.2 3.21 0c.6-.135 1.2-.267 1.8-.535c.39-.2.87-.4 1.397-.737c0 0-.6.936-2.205 1.404c.33.466.795 1 .795 1c2.744-.06 3.81-1.8 3.87-1.726c0-3.87-1.815-7.02-1.815-7.02c-1.635-1.214-3.165-1.26-3.435-1.26l.056-.02zm.168 4.413c.703 0 1.27.6 1.27 1.335c0 .74-.57 1.34-1.27 1.34c-.7 0-1.27-.6-1.27-1.334c.002-.74.573-1.338 1.27-1.338zm-4.543 0c.7 0 1.266.6 1.266 1.335c0 .74-.57 1.34-1.27 1.34c-.7 0-1.27-.6-1.27-1.334c0-.74.57-1.338 1.27-1.338z" />
+</svg>
+<span>Connect</span>
+</button>
+</form>
+</nav>
+</div>
+</header>
+<main id="main-page-content">
+<script src="/js/addons.js?v=UoYmi2jsbvca6z8GH085JoWf1mXUBjr_kqHb1G87Pts" defer></script>
+<script>
+    const tags = ["flat","transparent","layout","customizable","fiction","nature","space","dark","light","game","anime","red","orange","green","purple","black","other","high-contrast","white","aqua","animated","yellow","blue","abstract"];
+    let selected_tags = [];
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Tagify
+        // GitHub: https://github.com/yairEO/tagify
+
+        let inputElm = document.querySelector('input[name=tags]');
+
+        if (inputElm) {
+            // initialize Tagify on the above input node reference
+            let tagify = new Tagify(inputElm, {
+                enforceWhitelist: true,
+                whitelist: tags,
+                maxTags: 5,
+                dropdown: {
+                    maxItems: tags.length,
+                    classname: "tags-look",
+                    enabled: 0,
+                    closeOnSelect: false
+                }
+            })
+            tagify.addTags(["dark","light","other","white"]);
+        }
+
+        if (document.querySelector(".modal-content")) {
+            document.querySelector(".modal-content").addEventListener('scroll', function () {
+                tagify.dropdown.position.call(tagify);
+            })
+        }
+    })
+</script>
+<section id="addon-details" class="page-section">
+<div class="page-section-inner">
+<img loading="lazy" src="/Image/690" class="addon-backdrop" alt="Tokyo Night thumbnail" />
+<div class="flex-container align-center justify-between" id="addon-details-title">
+<h1 class="title">Tokyo Night</h1>
+<div class="disabled sign-in-gate">
+<button class="btn btn-secondary" id="like-addon" type="button">
+<svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+<path fill-rule="evenodd" d="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.565 20.565 0 008 13.393a20.561 20.561 0 003.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.75.75 0 01-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5zM8 14.25l-.345.666-.002-.001-.006-.003-.018-.01a7.643 7.643 0 01-.31-.17 22.075 22.075 0 01-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.08 22.08 0 01-3.744 2.584l-.018.01-.006.003h-.002L8 14.25zm0 0l.345.666a.752.752 0 01-.69 0L8 14.25z"></path>
+</svg>
+<span>Like (91)</span>
+</button>
+</div>
+</div>
+<div class="hide-mobile flex-container wrap align-center" id="addon-info-container">
+<span class="addon-info-item">By <a class="anchor" href="/developer/Ashtrath">Ashtrath</a></span>
+<div class="addon-info-divider"></div>
+<span class="addon-info-item">Version: 2.0.2</span>
+<div class="addon-info-divider"></div>
+<span class="addon-info-item">Updated: 09/26/2022 18:01:43</span>
+<div class="addon-info-divider"></div>
+<span class="addon-info-item">Downloads: 162,981</span>
+<div class="addon-info-divider"></div>
+</div>
+<div class="title-description">Discord Port of Visual Studio Code Theme</div>
+<div class="flex-container" id="addon-splitview-container">
+<div class="addon-details-column" id="addon-details-left-column">
+<article class="addon-details-segment">
+<div class="markdown-body">
+<h1><a id="user-content-important-this-theme-is-not-actively-maintained-anymore-because-im-not-interested-on-discord-theming-anymore-fork-and-prs-are-still-appreciated-and-welcomed" class="anchor" aria-hidden="true" href="#important-this-theme-is-not-actively-maintained-anymore-because-im-not-interested-on-discord-theming-anymore-fork-and-prs-are-still-appreciated-and-welcomed"><span aria-hidden="true" class="octicon octicon-link"></span></a>IMPORTANT! THIS THEME IS NOT ACTIVELY MAINTAINED ANYMORE BECAUSE IM NOT INTERESTED ON DISCORD THEMING ANYMORE, FORK AND PRs ARE STILL APPRECIATED AND WELCOMED!</h1>
+<h1 align="center"><a id="user-content-tokyo-night" class="anchor" aria-hidden="true" href="#tokyo-night"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tokyo Night</h1>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/Dyzean/Tokyo-Night/blob/main/assets/preview.png?raw=true"><img src="https://github.com/Dyzean/Tokyo-Night/raw/main/assets/preview.png?raw=true" alt style="max-width: 100%;"></a></p>
+<p align="center">A clean, dark, Discord theme based on <a href="https://github.com/enkia/tokyo-night-vscode-theme">Tokyo Night</a> colorscheme.</p>
+<hr>
+<h2><a id="user-content-installation" class="anchor" aria-hidden="true" href="#installation"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+<h3><a id="user-content-betterdiscord" class="anchor" aria-hidden="true" href="#betterdiscord"><span aria-hidden="true" class="octicon octicon-link"></span></a>BetterDiscord</h3>
+<ol>
+<li>Download the theme file <a href="https://betterdiscord.app/Download?id=439" rel="nofollow">here</a>
+</li>
+<li>Place it in the BetterDiscord themes folder</li>
+<li>Enable Tokyo Night in the themes tab</li>
+</ol>
+<h3><a id="user-content-replugged" class="anchor" aria-hidden="true" href="#replugged"><span aria-hidden="true" class="octicon octicon-link"></span></a>Replugged</h3>
+<div class="highlight highlight-source-shell"><pre><span class="pl-c1">cd</span> replugged/themes <span class="pl-k">&amp;&amp;</span> git clone https://github.com/Dyzean/Tokyo-Night</pre></div>
+<p>or <a href="https://replugged.dev/install?url=https://github.com/Dyzean/Tokyo-Night" rel="nofollow">Click This Link</a></p>
+<h3><a id="user-content-vencord" class="anchor" aria-hidden="true" href="#vencord"><span aria-hidden="true" class="octicon octicon-link"></span></a>Vencord</h3>
+<ol>
+<li>Go to user settings (CTRL + ,)</li>
+<li>Go to the "Vencord" category and select the "Themes" tab.</li>
+<li>In the input field under "THEMES" paste the following URL.</li>
+</ol>
+<pre><code>https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/tokyo-night.theme.css
+</code></pre>
+<h3><a id="user-content-stylus" class="anchor" aria-hidden="true" href="#stylus"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stylus</h3>
+<blockquote>
+<p><em><strong>Important Note!</strong></em></p>
+<p><em><strong>To be able to customize this theme, please fork using <a href="https://github.com/Dyzean/Tokyo-Night/fork">this link</a> and follow the instructions in <code>tokyo-night.user.css</code> starting at line 12.</strong></em></p>
+</blockquote>
+<ol>
+<li>Install the broswer extensions for your repsective browser.
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" rel="nofollow">Chrome Webstore</a></li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/styl-us" rel="nofollow">Firefox Addons</a></li>
+</ul>
+</li>
+<li>Once installed, open <a href="https://github.com/Dyzean/Tokyo-Night/blob/main/tokyo-night.user.css">this link</a> in a new browser tab. This opens the page where you will install this userstyle.</li>
+<li>Press the <code>Install Style</code> button.</li>
+</ol>
+<h2><a id="user-content-credits" class="anchor" aria-hidden="true" href="#credits"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
+<ul>
+<li>
+<a href="https://github.com/LuckFire">LuckFire</a> for <a href="https://github.com/LuckFire/CSS-Snippets/tree/master/BetterQuotes">Better Quotes</a>
+</li>
+<li>
+<a href="https://github.com/NYRI4">NYRI4</a> for <a href="https://github.com/NYRI4/Discolored">Discolored</a>
+</li>
+<li>
+<a href="https://github.com/Goose-Nest">GooseNest</a> for <a href="https://github.com/Goose-Nest/GT-RevertRebrand">Revert Rebrand</a>
+</li>
+<li>Also Huge thanks for BD &amp; Powercord servers for snippets and help!</li>
+</ul>
+</div>
+</article>
+
+<article class="addon-details-segment html-advertisement">
+
+<div class="ad vm-placement" style="max-width: 614px;" data-id="60f822f9bd5b6c54cf47a3e1"></div>
+
+</article>
+</div>
+<div class="addon-details-column" id="addon-details-right-column">
+<div class="addon-details-segment" id="addon-details-column-actions">
+<h3 class="addon-details-section-header">Actions</h3>
+<section id="addon-actions">
+<div class="btn-container direction-column">
+<a href="/Download?id=439" class="btn btn-primary">
+<svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+<path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path>
+</svg>
+<span>Download</span>
+</a>
+<a rel="noreferrer noopener" target="_blank" href="https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/Dyzean/Tokyo-Night@93e60a52711900a4a4f9cba2faaf6afd705c643c/tokyo-night.theme.css" class="btn btn-secondary">
+<svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+<path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path>
+</svg>
+<span>Preview</span>
+</a>
+</div>
+</section>
+<h3 class="addon-details-section-header">About</h3>
+<section id="about-addon">
+<span class="addon-metadata-row">
+<strong>Version: </strong>2.0.2
+</span>
+<span class="addon-metadata-row">
+<strong>Downloads: </strong>162,981
+</span>
+<span class="addon-metadata-row">
+<strong>Added: </strong>08/10/2021 05:59:41
+</span>
+<span class="addon-metadata-row">
+<strong>Last Updated: </strong>09/26/2022 18:01:43
+</span>
+<span class="addon-metadata-row">
+<strong>Hash: </strong>93e60a52711900a4a4f9cba2faaf6afd705c643c
+</span>
+<span class="addon-metadata-row">
+<strong>Source: </strong><a rel="noreferrer noopener" target="_blank" class="anchor" href="https://github.com/Dyzean/Tokyo-Night">https://github.com/Dyzean/Tokyo-Night</a>
+</span>
+</section>
+<h3 class="addon-details-section-header">Author</h3>
+<section id="addon-author">
+<a href="/developer/Ashtrath" class="addon-author-container">
+<img loading="lazy" src="https://github.com/Dyzean.png" alt="User avatar" />
+<h5>Ashtrath</h5>
+</a>
+</section>
+</div>
+<div class="addon-details-segment" id="addon-details-column-tags">
+<h3 class="addon-details-section-header">Tags</h3>
+<section>
+<div class="addon-tags">
+<span class="addon-tag">
+dark
+</span>
+<span class="addon-tag">
+light
+</span>
+<span class="addon-tag">
+other
+</span>
+<span class="addon-tag">
+white
+</span>
+</div>
+</section>
+</div>
+
+<div style="overflow: hidden;" class="addon-details-segment html-advertisement" id="addon-details-column-server">
+
+<div class="ad vm-placement" style="max-width: 310px;" data-id="60f822f9bd5b6c54cf47a3e1"></div>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<script src="/js/footer.js?v=fVibONE5ysI_4aLxlFO_HdBjR5h3blBjRZ-T8kwH5Sk" defer></script>
+<div class="footer-container">
+<img class="zere hide-mobile" loading="lazy" src="/resources/ui/techsupport.webp" alt="Easter egg" />
+<footer id="section-footer" class="page-section">
+<div class="page-section-inner">
+<section id="footer-top" class="flex-container hide-mobile">
+<div class="footer-column">
+<a class="footer-logo-wrap" href="/">
+<img class="footer-logo" loading="lazy" src="/resources/branding/logo_large.svg" alt="Footer logo" />
+</a>
+<input onkeyup="checkForEasterEgg()" id="easter-egg-input" class="footer-column-item" value="The Discord Enhancement Project" />
+</div>
+<div class="footer-column">
+<h3 class="footer-column-header">Community</h3>
+<a rel="noreferrer noopener" target="_blank" href="https://discord.gg/0Tmfo5ZbORCRqbAd" class="footer-column-item">
+<span>Discord</span>
+</a>
+<a rel="noreferrer noopener" target="_blank" href="https://twitter.com/_BetterDiscord_" class="footer-column-item">
+<span>Twitter</span>
+</a>
+<a rel="noreferrer noopener" target="_blank" href="https://github.com/BetterDiscord/BetterDiscord" class="footer-column-item">
+<span>GitHub</span>
+</a>
+</div>
+<div class="footer-column">
+<h3 class="footer-column-header">Content</h3>
+<a href="/themes" class="footer-column-item">
+<span>Themes</span>
+</a>
+<a href="/plugins" class="footer-column-item">
+<span>Plugins</span>
+</a>
+<a href="/developers" class="footer-column-item">
+<span>Developers</span>
+</a>
+</div>
+<div class="footer-column">
+<h3 class="footer-column-header">Help</h3>
+<a href="https://betterdiscord.bsa-whitelabel.com/" class="footer-column-item">Advertise With Us</a>
+<a href="https://docs.betterdiscord.app/" target="_blank" class="footer-column-item">Documentation</a>
+<a href="/Privacy" class="footer-column-item">Privacy Policy</a>
+<a href="/cdn-cgi/l/email-protection#3c5d585155527c5e594848594e58554f5f534e58125d4c4c" class="footer-column-item">Contact Us</a>
+<a href="#" class="footer-column-item" onclick="displayPreferenceModal()">Cookie Preferences</a>
+</div>
+</section>
+<section id="footer-bottom" class="flex-container wrap align-center justify-between">
+<div class="hide-desktop flex-container wrap" id="footer-privacy-container">
+<div class="footer-privacy text-center">
+<a href="https://betterdiscord.bsa-whitelabel.com/" class="footer-privacy-item">Advertise With Us</a>
+<a href="/Privacy" class="footer-privacy-item">Privacy Policy</a>
+<a href="/cdn-cgi/l/email-protection#68090c050106280a0d1c1c0d1a0c011b0b071a0c46091818" class="footer-privacy-item">Contact Us</a>
+<a href="#" class="footer-privacy-item" onclick="displayPreferenceModal()">Cookie Preferences</a>
+</div>
+</div>
+<div class="flex-container wrap" id="footer-copyright-container">
+<div class="footer-copyright text-center">
+© 2015-2023
+<a class="anchor" rel="noreferrer noopener" target="_blank" href="https://github.com/BetterDiscord">BetterDiscord Team</a>
+</div>
+</div>
+<div id="footer-social-icons" class="flex-container justify-center wrap">
+<a rel="noreferrer noopener" target="_blank" href="https://twitter.com/_BetterDiscord_" class="social-icon twitter">
+<svg class="social-icon-inner" width="32" height="32" viewBox="0 0 20 16" aria-hidden="true">
+<g fill="none" fill-rule="evenodd">
+<path class="foreground-26ym5y da-foreground" fill="currentColor" d="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.81875,12.4307692 C5.15625,12.4307692 3.73125,11.2 3.1375,9.6 C3.375,9.6 3.6125,9.72307692 3.85,9.72307692 C4.20625,9.72307692 4.5625,9.72307692 4.91875,9.6 C3.1375,9.23076923 1.7125,7.63076923 1.7125,5.66153846 C2.1875,5.90769231 2.78125,6.15384615 3.49375,6.15384615 C2.425,5.41538462 1.83125,4.18461538 1.83125,2.70769231 C1.83125,1.96923077 2.06875,1.23076923 2.30625,0.615384615 C4.20625,3.07692308 7.05625,4.67692308 10.38125,4.8 C10.2625,4.67692308 10.2625,4.30769231 10.2625,4.06153846 C10.2625,1.84615385 12.04375,0 14.18125,0 C15.25,0 16.31875,0.492307692 17.03125,1.23076923 C17.8625,1.10769231 18.8125,0.738461538 19.525,0.246153846 C19.2875,1.23076923 18.575,1.96923077 17.8625,2.46153846 C18.575,2.46153846 19.2875,2.21538462 20,1.84615385 C19.525,2.70769231 18.8125,3.32307692 18.1,3.93846154 L18.1,4.43076923 C18.1,9.84615385 14.18125,16 6.9375,16 C4.68125,16 2.6625,15.3846154 1,14.1538462 Z"></path>
+<rect width="32" height="32"></rect>
+</g>
+</svg>
+</a>
+<a rel="noreferrer noopener" target="_blank" href="https://discord.gg/0Tmfo5ZbORCRqbAd" class="social-icon discord">
+<svg class="social-icon-inner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="26" height="26">
+<path fill="currentColor" fill-rule="evenodd" d="M20.222 0c1.406 0 2.54 1.137 2.607 2.475V24l-2.677-2.273l-1.47-1.338l-1.604-1.398l.67 2.205H3.71c-1.402 0-2.54-1.065-2.54-2.476V2.48C1.17 1.142 2.31.003 3.715.003h16.5L20.222 0zm-6.118 5.683h-.03l-.202.2c2.073.6 3.076 1.537 3.076 1.537c-1.336-.668-2.54-1.002-3.744-1.137c-.87-.135-1.74-.064-2.475 0h-.2c-.47 0-1.47.2-2.81.735c-.467.203-.735.336-.735.336s1.002-1.002 3.21-1.537l-.135-.135s-1.672-.064-3.477 1.27c0 0-1.805 3.144-1.805 7.02c0 0 1 1.74 3.743 1.806c0 0 .4-.533.805-1.002c-1.54-.468-2.14-1.404-2.14-1.404s.134.066.335.2h.06c.03 0 .044.015.06.03v.006c.016.016.03.03.06.03c.33.136.66.27.93.4a8.18 8.18 0 0 0 1.8.536c.93.135 1.996.2 3.21 0c.6-.135 1.2-.267 1.8-.535c.39-.2.87-.4 1.397-.737c0 0-.6.936-2.205 1.404c.33.466.795 1 .795 1c2.744-.06 3.81-1.8 3.87-1.726c0-3.87-1.815-7.02-1.815-7.02c-1.635-1.214-3.165-1.26-3.435-1.26l.056-.02zm.168 4.413c.703 0 1.27.6 1.27 1.335c0 .74-.57 1.34-1.27 1.34c-.7 0-1.27-.6-1.27-1.334c.002-.74.573-1.338 1.27-1.338zm-4.543 0c.7 0 1.266.6 1.266 1.335c0 .74-.57 1.34-1.27 1.34c-.7 0-1.27-.6-1.27-1.334c0-.74.57-1.338 1.27-1.338z" />
+</svg>
+</a>
+<a rel="noreferrer noopener" target="_blank" href="https://github.com/BetterDiscord/BetterDiscord/" class="social-icon github">
+<svg class="social-icon-inner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="26" height="26">
+<path fill="currentColor" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+</svg>
+</a>
+</div>
+</section>
+</div>
+</footer>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        const url = new URL(window.location.href);
+        const id = url.searchParams.get("id");
+
+        if (id != null) {
+            window.history.replaceState('', '', window.location.href.replace(/\/?\?.*?$/, "/Tokyo Night"));
+        }
+
+        function getLikedAddon(addon_id) {
+            notAjax({
+                url: '/Addon/GetLikedAddon',
+                type: 'POST',
+                data: {
+                    Id: addon_id
+                },
+                success: function (result) {
+                    loading = false;
+                    //Addon is liked by user
+                }
+            });
+        }
+
+        function getFavouritedAddon(addon_id) {
+            notAjax({
+                url: '/Addon/GetFavouritedAddon',
+                type: 'POST',
+                data: {
+                    Id: addon_id
+                },
+                success: function (result) {
+                    // Addon is favourited by user
+                }
+            });
+        }
+
+        let loading = false;
+        let isLiked = false;
+
+        function toggleLikeAddon(addon_id) {
+            if (!loading) {
+                if (isLiked) {
+                    showUnlike();
+                    isLiked = false;
+                }
+                else {
+                    showLike();
+                    isLiked = true;
+                }
+
+                loading = true;
+                notAjax({
+                    url: '/Addon/ToggleLikeAddon',
+                    type: 'POST',
+                    data: {
+                        Id: addon_id
+                    },
+                    success: function (result) {
+                        // If result = true then the addon is liked by the user
+                        // Style appropriately
+                        loading = false;
+                    }
+                });
+            }
+        }
+
+        let likes = 91;
+
+        function showLike() {
+            likes += 1;
+            document.getElementById('like-addon').setAttribute('onclick', 'toggleLikeAddon(439)');
+            document.getElementById('like-path').setAttribute('d', 'M7.655 14.916L8 14.25l.345.666a.752.752 0 01-.69 0zm0 0L8 14.25l.345.666.002-.001.006-.003.018-.01a7.643 7.643 0 00.31-.17 22.08 22.08 0 003.433-2.414C13.956 10.731 16 8.35 16 5.5 16 2.836 13.914 1 11.75 1 10.203 1 8.847 1.802 8 3.02 7.153 1.802 5.797 1 4.25 1 2.086 1 0 2.836 0 5.5c0 2.85 2.045 5.231 3.885 6.818a22.075 22.075 0 003.744 2.584l.018.01.006.003h.002z');
+            document.getElementById('like-inner').innerHTML = `Unlike (${likes.toLocaleString()})`;
+        }
+
+        function showUnlike() {
+            likes -= 1;
+            document.getElementById('like-addon').setAttribute('onclick', 'toggleLikeAddon(439)');
+            document.getElementById('like-path').setAttribute('d', 'M4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.565 20.565 0 008 13.393a20.561 20.561 0 003.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.75.75 0 01-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5zM8 14.25l-.345.666-.002-.001-.006-.003-.018-.01a7.643 7.643 0 01-.31-.17 22.075 22.075 0 01-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.08 22.08 0 01-3.744 2.584l-.018.01-.006.003h-.002L8 14.25zm0 0l.345.666a.752.752 0 01-.69 0L8 14.25z');
+            document.getElementById('like-inner').innerHTML = `Like (${likes.toLocaleString()})`;
+        }
+
+    </script>
+<link rel="stylesheet" href="/css/overlayScrollbars.min.css?v=O2pCLRUtp_LLSWw6pJnoFU0x-p02SVp57AvtCn9PWwo" />
+<link rel="stylesheet" href="/css/tagify.min.css?v=U4Q668rIyooggxgIS_bH4z9IeHikIbCQfxSR7Usv8Gw" />
+<script src="/js/vendor/popper.min.js?v=GLgOQLuTrl-PHTJTsD2OXVW1E0GifteM9C_q3QErz58"></script>
+<script src="/js/vendor/tippy-bundle.umd.min.js?v=wj2Cg4b26_DzTSJbD0xJnCDkhMxXlR4cTJyGVgo5XdY"></script>
+<script>
+    tippy('.sign-in-gate', {
+        content: 'You must sign in to perform this action.',
+        theme: 'default',
+    });
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon='{"rayId":"80a472427b77352a","version":"2023.8.0","r":1,"token":"5a42eaf24d2a4ecf87c4205b7ebeb78c","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
